@@ -1,0 +1,41 @@
+{
+    "name": "dwhoban/xero",
+    "description": "A Craft Commerce Integration for Xero",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "xero"
+    ],
+    "support": {
+        "docs": "https://github.com/dwhoban/xero/blob/master/README.md",
+        "issues": "https://github.com/dwhoban/xero/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Hoban",
+            "homepage": "https://doppio3.digital"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "dwhoban\\xero\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Xero",
+        "handle": "xero",
+        "developer": "Dan Hoban",
+        "developerUrl": "https://doppio3.digital",
+        "documentationUrl": "https://github.com/dwhoban/xero/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/dwhoban/xero/master/CHANGELOG.md",
+        "class": "dwhoban\\xero\\Xero"
+    }
+}
