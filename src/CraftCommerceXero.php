@@ -1,6 +1,6 @@
 <?php
 /**
- * Xero plugin for Craft CMS 3.x
+ * Craft Commerce Xero plugin for Craft CMS 3.x
  *
  * A Craft Commerce Integration for Xero
  *
@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2020 Dan Hoban
  */
 
-namespace dwhoban\xero;
+namespace dwhoban\craftcommercexero;
 
 
 use Craft;
@@ -29,20 +29,20 @@ use yii\base\Event;
  * https://docs.craftcms.com/v3/extend/
  *
  * @author    Dan Hoban
- * @package   Xero
+ * @package   CraftCommerceXero
  * @since     1.0.0
  *
  */
-class Xero extends Plugin
+class CraftCommerceXero extends Plugin
 {
     // Static Properties
     // =========================================================================
 
     /**
      * Static property that is an instance of this plugin class so that it can be accessed via
-     * Xero::$plugin
+     * CraftCommerceXero::$plugin
      *
-     * @var Xero
+     * @var CraftCommerceXero
      */
     public static $plugin;
 
@@ -75,7 +75,7 @@ class Xero extends Plugin
 
     /**
      * Set our $plugin static property to this class so that it can be accessed via
-     * Xero::$plugin
+     * CraftCommerceXero::$plugin
      *
      * Called after the plugin class is instantiated; do any one-time initialization
      * here such as hooks and events.
@@ -120,7 +120,7 @@ class Xero extends Plugin
  */
         Craft::info(
             Craft::t(
-                'xero',
+                'craft-commerce-xero',
                 '{name} plugin loaded',
                 ['name' => $this->name]
             ),

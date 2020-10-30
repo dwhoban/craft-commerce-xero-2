@@ -1,4 +1,4 @@
-# Xero plugin for Craft CMS 3.x
+# Craft Commerce Xero plugin for Craft CMS 3.x
 
 A Craft Commerce Integration for Xero
 
@@ -18,23 +18,23 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require dwhoban/xero
+        composer require dwhoban/craft-commerce-xero
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Xero.
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Craft Commerce Xero.
 
-## Xero Overview
-
--Insert text here-
-
-## Configuring Xero
+## Craft Commerce Xero Overview
 
 -Insert text here-
 
-## Using Xero
+## Configuring Craft Commerce Xero
 
 -Insert text here-
 
-## Xero Roadmap
+## Using Craft Commerce Xero
+
+-Insert text here-
+
+## Craft Commerce Xero Roadmap
 
 Some things to do, and ideas for potential features:
 

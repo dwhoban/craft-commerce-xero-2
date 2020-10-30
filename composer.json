@@ -1,5 +1,5 @@
 {
-    "name": "dwhoban/xero",
+    "name": "dwhoban/craft-commerce-xero",
     "description": "A Craft Commerce Integration for Xero",
     "type": "craft-plugin",
     "version": "1.0.0",
@@ -8,11 +8,11 @@
         "cms",
         "craftcms",
         "craft-plugin",
-        "xero"
+        "craft commerce xero"
     ],
     "support": {
-        "docs": "https://github.com/dwhoban/xero/blob/master/README.md",
-        "issues": "https://github.com/dwhoban/xero/issues"
+        "docs": "https://github.com/dwhoban/craft-commerce-xero/blob/master/README.md",
+        "issues": "https://github.com/dwhoban/craft-commerce-xero/issues"
     },
     "license": "MIT",
     "authors": [
@@ -26,16 +26,16 @@
     },
     "autoload": {
         "psr-4": {
-          "dwhoban\\xero\\": "src/"
+          "dwhoban\\craftcommercexero\\": "src/"
         }
     },
     "extra": {
-        "name": "Xero",
-        "handle": "xero",
+        "name": "Craft Commerce Xero",
+        "handle": "craft-commerce-xero",
         "developer": "Dan Hoban",
         "developerUrl": "https://doppio3.digital",
-        "documentationUrl": "https://github.com/dwhoban/xero/blob/master/README.md",
-        "changelogUrl": "https://raw.githubusercontent.com/dwhoban/xero/master/CHANGELOG.md",
-        "class": "dwhoban\\xero\\Xero"
+        "documentationUrl": "https://github.com/dwhoban/craft-commerce-xero/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/dwhoban/craft-commerce-xero/master/CHANGELOG.md",
+        "class": "dwhoban\\craftcommercexero\\CraftCommerceXero"
     }
 }

@@ -1,6 +1,6 @@
 <?php
 /**
- * Xero plugin for Craft CMS 3.x
+ * Craft Commerce Xero plugin for Craft CMS 3.x
  *
  * A Craft Commerce Integration for Xero
  *
@@ -9,17 +9,17 @@
  */
 
 /**
- * Xero en Translation
+ * Craft Commerce Xero en Translation
  *
- * Returns an array with the string to be translated (as passed to `Craft::t('xero', '...')`) as
+ * Returns an array with the string to be translated (as passed to `Craft::t('craft-commerce-xero', '...')`) as
  * the key, and the translation as the value.
  *
  * http://www.yiiframework.com/doc-2.0/guide-tutorial-i18n.html
  *
  * @author    Dan Hoban
- * @package   Xero
+ * @package   CraftCommerceXero
  * @since     1.0.0
  */
 return [
-    'Xero plugin loaded' => 'Xero plugin loaded',
+    'Craft Commerce Xero plugin loaded' => 'Craft Commerce Xero plugin loaded',
 ];
